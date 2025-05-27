@@ -3,8 +3,9 @@
   "version": "1.0.0",
   "description": "'A video content sharing platform'",
   "main": "index.js",
+  "type":"module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev":"nodemon src/index.js"
   },
   "keywords": [
     "youtube",
@@ -14,5 +15,8 @@
     "website"
   ],
   "author": "Akhilendra Dwivedi",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
 }
